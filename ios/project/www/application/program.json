@@ -1,0 +1,65 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "d28fbd8f03d1ab2fea34134922a6494e32b237f3.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/d28fbd8f03d1ab2fea34134922a6494e32b237f3.js",
+      "size": 340738,
+      "hash": "d28fbd8f03d1ab2fea34134922a6494e32b237f3"
+    },
+    {
+      "path": "b7618943a8f618a131c0d7f837bd2a87d40a00c7.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/b7618943a8f618a131c0d7f837bd2a87d40a00c7.css?meteor_css_resource=true",
+      "size": 22507,
+      "hash": "b7618943a8f618a131c0d7f837bd2a87d40a00c7"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/fonts/fontawesome-webfont.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.eot",
+      "size": 56006,
+      "hash": "0183979056f0b87616cd99d5c54a48f3b771eee6"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/fonts/fontawesome-webfont.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.svg",
+      "size": 287007,
+      "hash": "cd980eab6db5fa57db670cb2e4278e67e1a4d6c9"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/fonts/fontawesome-webfont.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.ttf",
+      "size": 112160,
+      "hash": "6225ccc4ec94d060f19efab97ca42d842845b949"
+    },
+    {
+      "path": "packages/fortawesome_fontawesome/fonts/fontawesome-webfont.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/fortawesome_fontawesome/fonts/fontawesome-webfont.woff",
+      "size": 65452,
+      "hash": "7d65e0227d0d7cdc1718119cd2a7dce0638f151c"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "3050547713c8d3cc7dd5f1fa2cc6fca9e35ccd2e"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>420Radio</title>
+</head>
+
+<body>
+	{{> feed}}
+</body>
+
+<template name="feed">
+	<div class="episode-list">
+	{{#with episodes}}
+
+		<div class="episode">
+			
+			<h3 class="title"><a href="{{link}}" target="_blank">{{title}}</a></h3>
+			
+			<div class="media">
+				{{> audio}}
+			</div>
+			
+			
+			<div class="meta">
+				<ul>
+					<li>{{pubDate}}</li>
+					<li>{{showDuration}}</li>
+				</ul>
+			</div>
+			
+			
+			
+			<div class="categories">
+				<ul>
+					{{#each categories}}
+					<li>
+						{{this}}
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+			
+
+			
+			<div class="summary">
+				<p>{{summary}}</p>
+			</div>
+			
+		</div>
+
+	{{/with}}
+	</div>
+</template>
+
+<template name="audio">
+	<audio preload="metadata" controls>
+		<source src="{{audioUrl}}" type="{{audioType}}">
+	</audio>
+
+	<!--
+	<div class="player">
+		<div class="controls">
+			<div class="controls-container">
+				<div class="rewind">
+					<i class="fa fa-backward"></i>
+				</div>
+				<div class="play-pause">
+					<i class="fa fa-play"></i>
+				</div>
+				<div class="forwards">
+					<i class="fa fa-forward"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="transport">
+			<input type="range" min="0" max="100" value="10">
+		</div>
+	</div>
+	-->
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
